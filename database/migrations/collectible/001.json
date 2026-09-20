@@ -2,6 +2,45 @@
 	{
 		"table": "collectible",
 		"content": {
+			"name": "Gabinete",
+			"description": "O gabinete é a estrutura que abriga e protege os componentes do computador. Ele possui espaços para instalar a placa-mãe, fonte, armazenamento e outros dispositivos. Existem diferentes tamanhos e formatos, como Mini Tower, Mid Tower e Full Tower, que oferecem diferentes espaços para componentes e sistemas de refrigeração.",
+			"image": "images/collectibles/computer-case.png",
+			"props": {
+				"model": "models/collectibles/computer_case.glb",
+				"AR": {
+					"scale": "1.4 1.4 1.4",
+					"position": "0 0 0",
+					"rotation": "0 0 0",
+					"zoom": "0.1"
+				},
+				"3D": {
+					"scale": "0.478 0.478 0.478",
+					"position": "0 0 0",
+					"rotation": "0 0 0",
+					"zoom": "0.1"
+				}
+			},
+			"riddle": "Entre plantas e canteiros, procure algo que guarda e protege todas as peças de um computador.",
+			"gpsLocation": "",
+			"link": "",
+			"credits": "https://skfb.ly/6WPJ8",
+			"points": "10",
+			"journey": "Montando um PC",
+			"question": {
+				"question": "Qual é uma das principais funções do gabinete?",
+				"option_a": "Executar os programas",
+				"option_b": "Armazenar arquivos",
+				"option_c": "Abrigar e proteger os componentes",
+				"option_d": "Fornecer energia ao computador",
+				"correct_option": "Abrigar e proteger os componentes",
+				"fonte_link": "",
+				"collectible": "Gabinete"
+			}
+		}
+	},
+	{
+		"table": "collectible",
+		"content": {
 			"name": "Placa-mãe",
 			"description": "A placa-mãe é responsável por conectar e permitir a comunicação entre os principais componentes do computador. Existem diferentes modelos e fabricantes, com suporte a diferentes processadores, gerações e tipos de memória. Intel e AMD utilizam sockets diferentes, por isso a placa-mãe deve ser compatível com o processador escolhido.",
 			"image": "images/collectibles/placa-mae-_01aNc.png",
@@ -20,7 +59,7 @@
 					"zoom": "0.5"
 				}
 			},
-			"riddle": "Onde todas as peças se conectam. Quem sou eu?",
+			"riddle": "Em um laboratório de informática, procure a peça onde os principais componentes do computador se conectam.",
 			"gpsLocation": "",
 			"link": "https://pt.wikipedia.org/wiki/Placa-m%C3%A3e",
 			"credits": "https://skfb.ly/HYTI",
@@ -59,7 +98,7 @@
 					"zoom": "0.4"
 				}
 			},
-			"riddle": "Sou o cérebro do computador. Quem sou eu?",
+			"riddle": "Neste laboratório, procure o componente que executa as instruções e realiza os cálculos do computador.",
 			"gpsLocation": "",
 			"link": "https://pt.wikipedia.org/wiki/Microprocessador",
 			"credits": "https://skfb.ly/pqx6R",
@@ -98,7 +137,7 @@
 					"zoom": "1"
 				}
 			},
-			"riddle": "Guardo dados enquanto o computador trabalha. Quem sou eu?",
+			"riddle": "Entre os computadores deste laboratório, procure quem guarda temporariamente os dados usados pelos programas.",
 			"gpsLocation": "",
 			"link": "https://pt.wikipedia.org/wiki/Mem%C3%B3ria_de_acesso_aleat%C3%B3rio",
 			"credits": "https://skfb.ly/oLVsR",
@@ -137,7 +176,7 @@
 					"zoom": "0.1"
 				}
 			},
-			"riddle": "Guardo seus arquivos mesmo sem energia. Quem sou eu?",
+			"riddle": "Entre salas e equipamentos de engenharia, procure onde os arquivos podem ficar guardados mesmo sem energia.",
 			"gpsLocation": "",
 			"link": "https://en.wikipedia.org/wiki/Solid-state_drive",
 			"credits": "https://skfb.ly/6X6BS",
@@ -176,7 +215,7 @@
 					"zoom": "0.1"
 				}
 			},
-			"riddle": "Recebo energia e alimento o computador. Quem sou eu?",
+			"riddle": "Em um laboratório cheio de equipamentos, procure quem fornece energia para fazer tudo funcionar.",
 			"gpsLocation": "",
 			"link": "https://pt.wikipedia.org/wiki/Unidade_de_fonte_de_alimenta%C3%A7%C3%A3o_(computador)",
 			"credits": "https://skfb.ly/pqx8z",
@@ -215,7 +254,7 @@
 					"zoom": "0.1"
 				}
 			},
-			"riddle": "Mantenho o calor sob controle. Quem sou eu?",
+			"riddle": "Nesta sala, procure quem ajuda o computador a trabalhar sem deixar seus componentes esquentarem demais.",
 			"gpsLocation": "",
 			"link": "",
 			"credits": "https://skfb.ly/oR6nJ",
@@ -254,7 +293,7 @@
 					"zoom": "0.1"
 				}
 			},
-			"riddle": "Crio imagens e gráficos na tela. Quem sou eu?",
+			"riddle": "Entre projetos e ideias inovadoras, algo aqui é capaz de transformar dados em imagens.",
 			"gpsLocation": "",
 			"link": "",
 			"credits": "https://skfb.ly/pypPv",
@@ -269,45 +308,6 @@
 				"correct_option": "VRAM",
 				"fonte_link": "",
 				"collectible": "Placa de vídeo"
-			}
-		}
-	},
-	{
-		"table": "collectible",
-		"content": {
-			"name": "Gabinete",
-			"description": "O gabinete é a estrutura que abriga e protege os componentes do computador. Ele possui espaços para instalar a placa-mãe, fonte, armazenamento e outros dispositivos. Existem diferentes tamanhos e formatos, como Mini Tower, Mid Tower e Full Tower, que oferecem diferentes espaços para componentes e sistemas de refrigeração.",
-			"image": "images/collectibles/computer-case.png",
-			"props": {
-				"model": "models/collectibles/computer_case.glb",
-				"AR": {
-					"scale": "1.4 1.4 1.4",
-					"position": "0 0 0",
-					"rotation": "0 0 0",
-					"zoom": "0.1"
-				},
-				"3D": {
-					"scale": "0.478 0.478 0.478",
-					"position": "0 0 0",
-					"rotation": "0 0 0",
-					"zoom": "0.1"
-				}
-			},
-			"riddle": "Guardo e protejo todas as peças. Quem sou eu?",
-			"gpsLocation": "",
-			"link": "",
-			"credits": "https://skfb.ly/6WPJ8",
-			"points": "10",
-			"journey": "Montando um PC",
-			"question": {
-				"question": "Qual é uma das principais funções do gabinete?",
-				"option_a": "Executar os programas",
-				"option_b": "Armazenar arquivos",
-				"option_c": "Abrigar e proteger os componentes",
-				"option_d": "Fornecer energia ao computador",
-				"correct_option": "Abrigar e proteger os componentes",
-				"fonte_link": "",
-				"collectible": "Gabinete"
 			}
 		}
 	},
@@ -332,7 +332,7 @@
 					"zoom": "0.1"
 				}
 			},
-			"riddle": "Mostro tudo o que o computador faz. Quem sou eu?",
+			"riddle": "Em uma sala onde imagens são essenciais para a comunicação, procure quem exibe tudo o que o computador produz.",
 			"gpsLocation": "",
 			"link": "",
 			"credits": "https://skfb.ly/6V7rI",
@@ -371,7 +371,7 @@
 					"zoom": "0.1"
 				}
 			},
-			"riddle": "Com minhas teclas, você dá comandos. Quem sou eu?",
+			"riddle": "Em um lugar de apoio e convivência, procure um objeto cheio de teclas usado para enviar comandos ao computador.",
 			"gpsLocation": "",
 			"link": "",
 			"credits": "https://skfb.ly/o6rtR",
@@ -410,7 +410,7 @@
 					"zoom": "0.1"
 				}
 			},
-			"riddle": "Movo o ponteiro pela tela. Quem sou eu?",
+			"riddle": "Entre atividades dos estudantes, procure o pequeno dispositivo usado para controlar o ponteiro na tela.",
 			"gpsLocation": "",
 			"link": "",
 			"credits": "https://skfb.ly/6TAID",
@@ -449,7 +449,7 @@
 					"zoom": "0.1"
 				}
 			},
-			"riddle": "Conecto o computador a outras redes. Quem sou eu?",
+			"riddle": "Entre tecnologia e projetos conectados, procure o componente que coloca o computador em contato com outras redes.",
 			"gpsLocation": "",
 			"link": "",
 			"credits": "https://skfb.ly/oM7Qx",
